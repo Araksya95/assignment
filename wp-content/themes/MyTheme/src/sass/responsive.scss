@@ -1,0 +1,146 @@
+@media(max-width: 1440px){
+    .sec-txt-img {
+        &:before{
+            width: 70%;
+        }
+        &.img-pos-right {
+            padding: 420px 0 410px 0;
+        }
+        &.img-pos-left figure {
+            margin: 0 0 0 -5vw;
+        }
+        &.img-pos-right figure{
+            margin: 0 -5vw 0 0;
+        }
+    }
+    .section-banner .img-part figure {
+        margin: 0 -7vw 0 0;
+    }
+}
+@media(max-width: 1024px){
+    .h2, h2 {font-size: 3em;}
+    .h3, h3 {font-size: 2.5em;}
+    .h4, h4 {font-size: 1.5em;}
+    .h5, h5 {font-size: 1.3em;}
+    .sec-results-reviews .owl-carousel{
+        max-width: 550px;
+    }
+}
+@media(max-width: 768px){
+    .h2, h2 {font-size: 2em;}
+    .h3, h3 {font-size: 1.5em;}
+    .h4, h4 {font-size: 1.2em;}
+    .h5, h5 {font-size: 1em;}
+    .only-mob{display: block;}
+    .hide-on-mob{display: none;}
+    .btn{padding: 10px 20px;}
+    .wrapper{
+        width: 100%;
+        padding-left: var(--mob-wrapper-pad-lr);
+        padding-right: var(--mob-wrapper-pad-rg);
+    }
+    .flex .half {flex-basis: 100%}
+    .owl-carousel{margin-top: 30px}
+    .logo img{max-width: 100px}
+    .main-nav{
+        position: fixed;
+        background: white;
+        width: 100%;
+        left: 0;
+        top: 70px;
+        height: 100%;
+        z-index: 9999;
+    }
+    .scroll-up header{padding: 15px 0;}
+    header {
+        background: var(--clr-red);
+        position: fixed;
+        padding: 15px 0;
+        z-index: 99;
+        a{
+            font-size: 1.5em;
+            color: var(--clr-red);
+            font-weight: 600;
+            line-height: 1.5;
+        }
+        .btn.bg-gradient{
+            background: white;
+            color: var(--clr-red);
+        }
+    }
+    .section-banner{
+        padding: 100px 0 40px 0;
+        background-image: none !important;
+        background-color: var(--clr-red);
+        .img-part{
+            margin-bottom: 20px;
+            figure{margin: 0;}
+        }
+        .brand-icons {
+            margin-top: 0;
+            flex-wrap: wrap;
+            justify-content: center;
+            > img {
+                flex-basis: 50%;
+                width: 50%;
+            }
+        }
+    }
+    .flex.only-desk{flex-direction: column;}
+    .mg-t-b-40{margin: 20px 0}
+    .owl-carousel{margin-bottom: 30px}
+    .img-part figure {
+        margin: 0;
+        position: static;
+        height: auto;
+        img {position: static;}
+    }
+    .img-pos-right .txt-part {padding-right: 0;}
+    .img-pos-left .txt-part {padding-left: 0;}
+    .txt-part{margin-bottom: 30px;}
+    .section-sixth{margin-top: 0}
+    .sec-txt-img {
+        &.img-pos-right, &.img-pos-left{
+            padding: 0;
+            margin-top: 0;
+        }
+        &:before {content: none;}
+    }
+    .sec-results-reviews {
+        padding: 30px 0;
+        overflow: hidden;
+        .owl-carousel {
+            max-width: 70%;
+            width: 50%;
+            margin: 0 auto 30px;
+            padding: 0;
+        }
+        .result-count{font-size: 2.5em;}
+        .results-part{
+            margin: 40px 0;
+            flex-wrap: wrap;
+            &>div{
+                flex-basis: 50%;
+                margin-bottom: 20px;
+            }
+        }
+        .review-part {
+            padding: 50px 20px;
+        }
+    }
+    .row-reverse{flex-direction: column;}
+    .sec-txt-img{padding: 0;}
+    .liner-before-heading{
+        margin-top: 30px;
+        &:before{margin-bottom: 15px;}
+    }
+    .listing{
+        li{
+            padding-bottom: 20px;
+            h5{margin-bottom: 20px;}
+        }
+    }
+    footer{
+        padding: 30px 0;
+    }
+}

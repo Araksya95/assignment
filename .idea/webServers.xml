@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c4bee029-6312-4a70-8dc7-330ade89aa46" name="mhw" url="http://75.98.171.122">
+        <fileTransfer rootFolder="/public_html/staging.mentalhealthworks.ca" host="75.98.171.122" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
